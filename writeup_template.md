@@ -71,3 +71,11 @@ function > find_lanes() > find_curvature()
 
 function > draw_poly() 
 ![](output_images/out.png)
+
+
+7. Discussion includes some consideration of problems/issues faced, what could be improved about their algorithm/pipeline, and what hypothetical cases would cause their pipeline to fail.
+
+My pipeline looks good in some cases, but I'm not sure if it can be used on a real road.
+It tends to depend on the color of the lane, but it will be very vulnerable when it comes to rain or snow.
+It works well on a clear day or in a normal lane.
+I think the lane detection method that generates the feature using cnn is more robust than the method of extracting the direct feature and detecting the lane.
