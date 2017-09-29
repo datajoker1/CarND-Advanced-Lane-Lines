@@ -35,19 +35,19 @@ Briefly state how you computed the camera matrix and distortion coefficients. Pr
 
 
   * Sobel Absolute Threshold:
-  * ![](output_images/sobel_abs.png)
+    ![](output_images/sobel_abs.png)
 
   * Sobel Magnitude Threshold:
-  * ![](output_images/sobel_magnitude.png)
+    ![](output_images/sobel_magnitude.png)
 
   * Sobel Directional Threshold:
-  * ![](output_images/sobel_direction.png)
+    ![](output_images/sobel_direction.png)
 
   * HLS S-Channel Threshold:
-  * ![](output_images/hls-s.png)
+    ![](output_images/hls-s.png)
 
   * HLS L-Channel Threshold:
-  * ![](output_images/hls-l.png)
+    ![](output_images/hls-l.png)
 
 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
