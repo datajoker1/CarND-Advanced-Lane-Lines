@@ -83,7 +83,7 @@ Briefly state how you computed the camera matrix and distortion coefficients. Pr
 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
  * function > draw_poly() 
- * ![](output_images/result.png)
+  ![](output_images/result.png)
 
 
 
