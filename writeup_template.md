@@ -12,7 +12,7 @@ In this project, our goal is to write a software pipeline to identify the lane b
 
 
 ### Camera calibration
-1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
+Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
 
 1. Convert to grayscale
 2. Find the chessboard corners
