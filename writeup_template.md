@@ -56,9 +56,9 @@ Briefly state how you computed the camera matrix and distortion coefficients. Pr
 
   | Source        | Destination   |
   | ------------- |:-------------:| 
-  | (574,464)     | (450,0)       |
-  | (707,464)     | (830,0)       |
-  | (258,682)     | (450,720)     |
+  | (575,464)     | (450,0)     |
+  | (707,464)     | (830,0)    |
+  | (258,682)     | (450,720)    |
   | (1049,682)    | (830,720)     |
 
   ![](output_images/perspective_transform.png)
