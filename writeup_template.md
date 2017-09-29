@@ -21,7 +21,9 @@ Briefly state how you computed the camera matrix and distortion coefficients. Pr
 
 ![](output_images/undistorted_chessboard.png)
 
-Pipeline (single images)
+
+
+### Pipeline 
 
 1. Provide an example of a distortion-corrected image.
 ![](output_images/undistorted_road.png)
