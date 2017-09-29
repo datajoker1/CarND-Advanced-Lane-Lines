@@ -28,9 +28,10 @@ Briefly state how you computed the camera matrix and distortion coefficients. Pr
 1. Provide an example of a distortion-corrected image.
 ![](output_images/undistorted_road.png)
 
+
 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image. Provide an example of a binary image result.
 
-I used a combination of color and gradient thresholds to generate a binary image
+ * I used a combination of color and gradient thresholds to generate a binary image
 
 Sobel Absolute Threshold:
 ![](output_images/sobel_abs.png)
