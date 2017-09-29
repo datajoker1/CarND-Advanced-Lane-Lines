@@ -72,15 +72,20 @@ Briefly state how you computed the camera matrix and distortion coefficients. Pr
  * function > fit_lanes()
 
 
+
 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
  * I used np.polyfit() function.
  * function > find_lanes() > find_curvature()
 
+
+
 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
  * function > draw_poly() 
  * ![](output_images/result.png)
+
+
 
 
 7. Discussion includes some consideration of problems/issues faced, what could be improved about their algorithm/pipeline, and what hypothetical cases would cause their pipeline to fail.
