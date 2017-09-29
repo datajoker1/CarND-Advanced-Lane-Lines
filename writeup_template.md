@@ -19,12 +19,12 @@ In this project, our goal is to write a software pipeline to identify the lane b
 3. Get objpoints and imgpoints
 4. Undistort image uisng cv2.undistort function
 
-![](output_images/result_cal.png)
+![](output_images/undistorted_chessboard.png)
 
 Pipeline (single images)
 
 1. Provide an example of a distortion-corrected image.
-![](output_images/undistorted_image.png)
+![](output_images/undistorted_road.png)
 
 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image. Provide an example of a binary image result.
 
@@ -55,7 +55,7 @@ HLS L-Channel Threshold:
 | (258,682)     | (450,720)    |
 | (1049,682)    | (830,720)     |
 
-![](output_images/view.png)
+![](output_images/perspective_transform.png)
 
 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
@@ -70,4 +70,4 @@ function > find_lanes() > find_curvature()
 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
 function > draw_poly() 
-![](output_images/out.png)
+![](output_images/result.png)
