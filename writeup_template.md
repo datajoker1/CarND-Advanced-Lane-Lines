@@ -33,20 +33,21 @@ Briefly state how you computed the camera matrix and distortion coefficients. Pr
 
  * I used a combination of color and gradient thresholds to generate a binary image
 
-Sobel Absolute Threshold:
-![](output_images/sobel_abs.png)
 
-Sobel Magnitude Threshold:
-![](output_images/sobel_magnitude.png)
+  * Sobel Absolute Threshold:
+  * ![](output_images/sobel_abs.png)
 
-Sobel Directional Threshold:
-![](output_images/sobel_direction.png)
+  * Sobel Magnitude Threshold:
+  * ![](output_images/sobel_magnitude.png)
 
-HLS S-Channel Threshold:
-![](output_images/hls-s.png)
+  * Sobel Directional Threshold:
+  * ![](output_images/sobel_direction.png)
 
-HLS L-Channel Threshold:
-![](output_images/hls-l.png)
+  * HLS S-Channel Threshold:
+  * ![](output_images/hls-s.png)
+
+  * HLS L-Channel Threshold:
+  * ![](output_images/hls-l.png)
 
 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
