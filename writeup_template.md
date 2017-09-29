@@ -93,4 +93,4 @@ Briefly state how you computed the camera matrix and distortion coefficients. Pr
  * My pipeline looks good in some cases, but I'm not sure if it can be used on a real road.
  * It tends to depend on the color of the lane, but it will be very vulnerable when it comes to rain or snow.
  * It works well on a clear day or in a normal lane.
- * I think the lane detection method that generates the feature using cnn is more robust than the method of extracting the direct feature and detecting the lane.
+ * I think the lane detection method that generates the feature using CNN is more robust than the method of extracting the direct feature and detecting the lane.
