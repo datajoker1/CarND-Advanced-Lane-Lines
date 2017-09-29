@@ -49,37 +49,43 @@ Briefly state how you computed the camera matrix and distortion coefficients. Pr
   * HLS L-Channel Threshold:
     ![](output_images/hls-l.png)
 
+
+
 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
 
-| Source        | Destination   |
-| ------------- |:-------------:| 
-| (575,464)     | (450,0)     |
-| (707,464)     | (830,0)    |
-| (258,682)     | (450,720)    |
-| (1049,682)    | (830,720)     |
+  | Source        | Destination   |
+  | ------------- |:-------------:| 
+  | (575,464)     | (450,0)     |
+  | (707,464)     | (830,0)    |
+  | (258,682)     | (450,720)    |
+  | (1049,682)    | (830,720)     |
 
-![](output_images/perspective_transform.png)
+  ![](output_images/perspective_transform.png)
+
+
 
 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
-Two approaches were implemented for finding lane lines. The first approach is the window sliding method which is used when prior lane information does not exist or missing. Although this appraoch is often more robust, it is also computationally time consuming. The other approach is searching for lane pixels in a target region determined by the previous window frame. The second approach is less compuationally intensive and is used for most of the video frames.
-function > fit_lanes()
+ Two approaches were implemented for finding lane lines. The first approach is the window sliding method which is used when prior lane information does not exist or missing. Although this appraoch is often more robust, it is also computationally time consuming. The other approach is searching for lane pixels in a target region determined by the previous window frame. The second approach is less compuationally intensive and is used for most of the video frames.
+
+ function > fit_lanes()
+
 
 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-I used np.polyfit() function.
-function > find_lanes() > find_curvature()
+ I used np.polyfit() function.
+ function > find_lanes() > find_curvature()
 
 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-function > draw_poly() 
-![](output_images/result.png)
+ function > draw_poly() 
+ ![](output_images/result.png)
 
 
 7. Discussion includes some consideration of problems/issues faced, what could be improved about their algorithm/pipeline, and what hypothetical cases would cause their pipeline to fail.
 
-My pipeline looks good in some cases, but I'm not sure if it can be used on a real road.
-It tends to depend on the color of the lane, but it will be very vulnerable when it comes to rain or snow.
-It works well on a clear day or in a normal lane.
-I think the lane detection method that generates the feature using cnn is more robust than the method of extracting the direct feature and detecting the lane.
+ My pipeline looks good in some cases, but I'm not sure if it can be used on a real road.
+ It tends to depend on the color of the lane, but it will be very vulnerable when it comes to rain or snow.
+ It works well on a clear day or in a normal lane.
+ I think the lane detection method that generates the feature using cnn is more robust than the method of extracting the direct feature and detecting the lane.
